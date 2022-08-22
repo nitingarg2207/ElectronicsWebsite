@@ -5,6 +5,12 @@ import '../styles/Products.css'
 const Products = () => {
   return (
     <>
+    <div className="showcase">
+      <h5>Name: Nitin garg</h5>
+      <h5>Email: ngarg2207@gmail.com</h5>
+      <h5>Email2: nitin1960.be20@chitkara.edu.in</h5>
+      <h5>Contact: 8699045020</h5>
+    </div>
     <div className="slider">
           <div>
               <h1>Incredible Prices on All  Your Favorite Items</h1>
