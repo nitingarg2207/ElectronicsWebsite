@@ -1,0 +1,167 @@
+.flexboxes {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1px;
+    margin: right 1px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .flexboxes div{
+    width: 45%;
+    margin-left: 4px;
+    margin-right: 5px;
+  }
+  
+  .flexboxes img {
+    height: auto;
+    width: 60%;
+  }
+  
+  @media screen and (max-width:1200px){
+    .flexboxes img{
+      width: 55%;
+    }
+  }
+  
+  @media screen and (max-width:1000px){
+    .flexboxes img{
+      width: 90%;
+    }
+  }
+  
+  @media screen and (max-width:700px){
+    .imagesPara .chooseus{
+      font-size: 14px;
+    }
+    .imagesPara .imageHeading{
+      font-size: 28px;
+    }
+  }
+  
+  .test {
+    margin-top: 3%;
+    padding-top: 0.5%;
+    background-color: #fff600;
+    height: 350px;
+    width: 100%;
+  }
+  .test p {
+    margin-left: 4%;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: 600;
+  }
+  
+  .test h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 20px;
+    padding-left: 20px;
+  }
+  .test ol li {
+    list-style: disc;
+    margin-left: 20px;
+    line-height: 30px;
+    font-weight: 500;
+  }
+  .test li {
+    font-size: 22px;
+    margin-left: 50%;
+  }
+  .test h2 {
+    font-size: 50px;
+    color: brown;
+  }
+  
+  /* CATEGORIES SECTION */
+  .categories {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3%;
+    flex-wrap: wrap;
+  }
+  .indian div{
+    width: 30%;
+  }
+  @media screen and (max-width: 964px) {
+    .categories div {
+      width: 50%;
+    }
+    .indian div{
+      width: 50%;
+    }
+  }
+  
+  .categories div img {
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .categories div img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* INDIAN COLTHES SECTION */
+  .indian {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0% 5%;
+  }
+  .indian img {
+    height: auto;
+    width: 90%;
+    row-gap: 10px;
+    transition: all 0.1s ease-in-out;
+  }
+  .indian img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* ACCESSORIES SECTION */
+  .acc {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2% 5%;
+  }
+  .acc div {
+    width: 33%;
+  }
+  
+  @media screen and (max-width:850px) {
+    .acc div{
+      width: 50%;
+    }
+  }
+  
+  .flexboxes div {
+    margin-top: 20px;
+  }
+  
+  .flexboxes div img:hover {
+    cursor: pointer;
+  }
+  
+  .categories div img:hover {
+    cursor: pointer;
+  }
+  
+  .indian div {
+    margin-top: 30px;
+  }
+  
+  /* CHANGING CURSOR STYLE WHEN HOVERNG OVER CARDS */
+  .indian div img:hover {
+    cursor: pointer;
+  }
+  
+  .indian,
+  .categories {
+    width: 100%;
+    align-items: center;
+  }
+  
